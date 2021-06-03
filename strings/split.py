@@ -1,16 +1,16 @@
 def split(string: str, seperator: str = " ") -> list:
     """
     Will split the string up into all the values seperated by the seperator (defaults to spaces)
-    
+
     >>> split("apple#banana#cherry#orange",seperator='#')
     ['apple', 'banana', 'cherry', 'orange']
-    
+
     >>> split("Hello there")
     ['Hello', 'there']
-    
+
     >>> split("11/22/63",seperator = '/')
     ['11', '22', '63']
-    
+
     >>> split("12:43:39",seperator = ":")
     ['12', '43', '39']
     """

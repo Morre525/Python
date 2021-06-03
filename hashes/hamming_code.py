@@ -71,7 +71,7 @@ def emitterConverter(sizePar, data):
     """
     :param sizePar: how many parity bits the message must have
     :param data:  information bits
-    :return: message to be transmitted by unreliable medium 
+    :return: message to be transmitted by unreliable medium
             - bits of information merged with parity bits
 
     >>> emitterConverter(4, "101010111111")

@@ -15,11 +15,11 @@ https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 def prime_sieve_eratosthenes(num):
     """
     print the prime numbers upto n
-    
+
     >>> prime_sieve_eratosthenes(10)
-    2 3 5 7 
+    2 3 5 7
     >>> prime_sieve_eratosthenes(20)
-    2 3 5 7 11 13 17 19 
+    2 3 5 7 11 13 17 19
     """
 
     primes = [True for i in range(num + 1)]

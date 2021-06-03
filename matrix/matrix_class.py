@@ -16,13 +16,13 @@ class Matrix:
     [[1. 2. 3.]
      [4. 5. 6.]
      [7. 8. 9.]]
-    
+
     Matrix rows and columns are available as 2D arrays
     >>> print(matrix.rows)
     [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     >>> print(matrix.columns())
     [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
-    
+
     Order is returned as a tuple
     >>> matrix.order
     (3, 3)

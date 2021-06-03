@@ -104,7 +104,9 @@ class Graph:
         # u -> v(w)
         for u in self.adjList:
             print(
-                u, "->", " -> ".join(str(f"{v}({w})") for v, w in self.adjList[u]),
+                u,
+                "->",
+                " -> ".join(str(f"{v}({w})") for v, w in self.adjList[u]),
             )
 
     def dijkstra(self, src):

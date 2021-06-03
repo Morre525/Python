@@ -127,8 +127,7 @@ class Decision_Tree:
 
 
 class Test_Decision_Tree:
-    """Decision Tres test class
-    """
+    """Decision Tres test class"""
 
     @staticmethod
     def helper_mean_squared_error_test(labels, prediction):
@@ -136,7 +135,7 @@ class Test_Decision_Tree:
         helper_mean_squared_error_test:
         @param labels: a one dimensional numpy array
         @param prediction: a floating point value
-        return value: helper_mean_squared_error_test calculates the mean squared error 
+        return value: helper_mean_squared_error_test calculates the mean squared error
         """
         squared_error_sum = np.float(0)
         for label in labels:

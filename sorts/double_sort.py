@@ -1,6 +1,6 @@
 def double_sort(lst):
-    """this sorting algorithm sorts an array using the principle of bubble sort , 
-    but does it both from left to right and right to left , 
+    """this sorting algorithm sorts an array using the principle of bubble sort ,
+    but does it both from left to right and right to left ,
     hence i decided to call it "double sort"
     :param collection: mutable ordered sequence of elements
     :return: the same collection in ascending order

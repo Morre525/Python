@@ -18,7 +18,7 @@ def palindromic_string(input_string):
     2. for each character in new_string it find corresponding length and store,
         a. max_length
         b. max_length's center
-    3. return output_string from center - max_length to center + max_length and remove all "|"   
+    3. return output_string from center - max_length to center + max_length and remove all "|"
     """
     max_length = 0
 
